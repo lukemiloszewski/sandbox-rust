@@ -10,6 +10,7 @@ pub fn function() {
 
 fn private_function() {
     println!("called `my::private_function()`");
+    inaccessible::public_function();
 }
 
 pub fn indirect_access() {
